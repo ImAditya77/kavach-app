@@ -1,17 +1,127 @@
-# kavach
+# 🚨 Kavach – Real-Time Emergency Response System
 
-A new Flutter project.
+<p align="center">
+  <b>Connecting citizens and volunteers instantly during emergencies.</b><br/>
+  Built with Flutter + Firebase ⚡
+</p>
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Overview
 
-A few resources to get you started if this is your first Flutter project:
+**Kavach** is a real-time emergency response mobile application designed to reduce response time during critical situations.
+It allows users to raise alerts and enables nearby volunteers to respond immediately.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔥 Key Features
+
+* 🚨 **One-Tap SOS Alert**
+
+  * Raise emergency alerts instantly
+
+* 🔄 **Dual Mode System**
+
+  * Seamlessly switch between **Citizen** and **Volunteer**
+
+* 📍 **Live Location Tracking**
+
+  * Every alert contains precise coordinates
+
+* 🧭 **Navigation Support**
+
+  * Volunteers can navigate directly to the emergency
+
+* 📜 **Live Alert Feed**
+
+  * Real-time alert updates using Firebase
+
+* ⚡ **Fast & Lightweight**
+
+  * Optimized for quick response scenarios
+
+---
+
+## 🧠 How It Works
+
+```text
+Citizen triggers SOS 🚨
+        ↓
+Alert stored in Firebase
+        ↓
+Volunteer receives alert
+        ↓
+Volunteer accepts & navigates
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer    | Technology         |
+| -------- | ------------------ |
+| Frontend | Flutter (Dart)     |
+| Backend  | Firebase Firestore |
+| Auth     | Firebase Auth      |
+| Location | Geolocator         |
+| Maps     | Google Maps        |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```
+git clone https://github.com/ImAditya77/kavach-app.git
+```
+
+### 2. Navigate to project
+
+```
+cd kavach-app
+```
+
+### 3. Install dependencies
+
+```
+flutter pub get
+```
+
+### 4. Run the app
+
+```
+flutter run
+```
+
+---
+
+## 🔐 Security Note
+
+Do not upload sensitive files:
+
+```
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+```
+
+---
+
+## 🚧 Future Enhancements
+
+* 🔔 Push Notifications (FCM)
+* 🧠 Smart alert prioritization
+* 📍 Nearby alerts filtering
+* 🛡️ Anti-spam / misuse detection
+
+---
+
+## 👨‍💻 Author
+
+**Aditya Dixit**
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
