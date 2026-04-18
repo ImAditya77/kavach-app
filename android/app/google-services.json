@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296093774638",
+    "project_id": "kavach-35b77",
+    "storage_bucket": "kavach-35b77.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296093774638:android:c555e8235f64a04b0a80bf",
+        "android_client_info": {
+          "package_name": "com.example.kavach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH1px4V-UFSCksJ0woFvAH97IuIfpanww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
